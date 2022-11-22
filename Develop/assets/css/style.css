@@ -1,13 +1,21 @@
+/*
+CSS Stylesheet for Horiseon Website
+*/
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/*
+Setting background color for full webpage
+*/
 body {
     background-color: #d9dcd6;
 }
-
+/*
+Header section sets H1 tag and nav bar
+*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -49,8 +57,10 @@ a {
 p {
     font-size: 16px;
 }
-
-.hero {
+/*
+Background image under header
+*/
+.background-image {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -58,7 +68,9 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/*
+Setting article images in section element to float to left or right
+*/
 .float-left {
     float: left;
     margin-right: 25px;
@@ -68,13 +80,17 @@ p {
     float: right;
     margin-left: 25px;
 }
-
+/*
+Content section formatting
+*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/*
+Separated Content section articles to follow HTML formatting
+*/
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -128,7 +144,9 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/*
+Changed benefits to an aside element and edited flow to follow HTML format
+*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -145,27 +163,7 @@ p {
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
 .benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
@@ -176,10 +174,30 @@ p {
     max-width: 150px;
 }
 
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
+}
+
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
 }
 
 .benefit-cost img {
@@ -187,7 +205,9 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-
+/*
+Changed footer div to a semantic footer element
+*/
 footer {
     padding: 30px;
     clear: both;
