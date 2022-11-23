@@ -26,3 +26,7 @@ Lastly, I added comments to the HTML and CSS outlining specific changes and desc
 ![Webpage Image 3](./assets/readme%20images/Horiseon_Image3.png)
 
 ## Link
+
+Visit the webpage at
+
+https://sealcakes.github.io/Horiseon-On-The-Job-Challenge/
