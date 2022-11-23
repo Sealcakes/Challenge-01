@@ -64,9 +64,7 @@ Background image under header
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
+
 }
 /*
 Setting article images in section element to float to left or right
