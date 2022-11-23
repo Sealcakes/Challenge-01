@@ -21,9 +21,8 @@ Lastly, I added comments to the HTML and CSS outlining specific changes and desc
 
 ## Screenshot
 
-image.png
-image.png
-image.png
-
+![Webpage Image 1](./assets/readme%20images/Horiseon_Image1.png)
+![Webpage Image 2](./assets/readme%20images/Horiseon_Image2.png)
+![Webpage Image 3](./assets/readme%20images/Horiseon_Image3.png)
 
 ## Link
